@@ -1,0 +1,48 @@
+body {
+	padding-top: 50px;
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.content {
+	padding-top: 25px;
+}
+
+.shareCategories {
+	margin-bottom: 20px;
+}
+
+.shares {
+	font-size: 0;
+	position: relative;
+	width: 100%;
+}
+
+.shares .shareItem {
+	border: 1px solid rgb(92, 166, 228);
+	display: block;
+	float: left;
+	vertical-align: top;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+}
+
+/* clearfix */
+.shares .shareItem:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.shares .shareItem .shareItem-categories {
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.shares .shareItem .shareItem-id {
+	font-size: 14px;
+}
